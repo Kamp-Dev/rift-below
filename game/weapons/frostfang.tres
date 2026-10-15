@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="RiftWeapon" load_steps=3 format=3]
+[ext_resource type="Script" path="res://weapons/weapon.gd" id="1"]
+[ext_resource type="Texture2D" path="res://weapons/frostfang.svg" id="2"]
+[resource]
+script = ExtResource("1")
+display_name = "Frostfang"
+texture = ExtResource("2")
+damage_bonus = 0
+reach = 95.0
+attack_duration = 0.32
+trail_color = Color(0.4, 0.95, 1, 1)
